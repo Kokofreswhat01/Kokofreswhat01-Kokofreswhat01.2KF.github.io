@@ -1,0 +1,23 @@
+/*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #EBB24C;
+}*/
+body{
+    position: relative;
+    background-size: 30px;
+    background-color: #EBB24C;
+
+}
+.btn{
+    display: flex;
+    background-color: #012B28;
+    margin: 20px 1000px;
+
+    
+}
+a{
+    text-decoration: none;
+    color: #EBB24C;
+}

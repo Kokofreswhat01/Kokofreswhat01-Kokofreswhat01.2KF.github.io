@@ -13,8 +13,11 @@
     margin-left: 30px;
 }
 .monlo{
-    display: flex;
-    margin-top: 20px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 45px;
+    top: 555px;
 }
 p.info{
     margin-top: 10px;
@@ -32,6 +35,14 @@ p.info{
     background: #EBB24C;
 
 }*/
+.trav{
+    text-align: center;
+    padding: 0 20%;
+}
+.add{
+    text-align: center;
+
+}
 
 .tableau-style{
     border-collapse: collapse;
@@ -58,25 +69,11 @@ tbody tr:nth-child(){
     background-color: #ffff;
 }
 
-/*body div{
-    padding: 5rem;
-    justify-content: center;
-
-}*/
 body label{
     display: block;
     line-height: 40px;
 }
-/*a{
-    position: relative;
-    margin: 480px;
-    top: 42%;
-    left: 25%;
-    text-decoration: none;
-    color: white;
-    background-color: #012B28;
-    background-size: 20px;
-}*/
+
 .option-input:checked::after{
     animation: click-wave 0.5s;
     background: #EBB24C;
@@ -90,6 +87,11 @@ body label{
 }
 .option-input.radio::after{
     border-radius: 50%;
+}
+.ajout{
+    top: 50%;
+    text-decoration: none;
+    cursor: pointer;
 }
 @keyframes click-wave{
     0%{
